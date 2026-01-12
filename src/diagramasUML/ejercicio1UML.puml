@@ -1,0 +1,21 @@
+@startuml
+
+Animal <|-- Terrestre
+Animal <|-- Acuatico
+Animal <|-- Ave
+Terrestre <|-- Amer
+
+class Animal {
+}
+
+class Terrestre {
+}
+
+class Acuatico {
+}
+
+class Ave {
+}
+
+@enduml
+
